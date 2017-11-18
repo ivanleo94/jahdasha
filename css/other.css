@@ -1,0 +1,78 @@
+body
+{
+	background: url("../images/husk.jpg");
+	font-size: 18px;
+	line-height: 34px;
+	font-family: 'Arial', ' sans-serif';
+	color: rgb(11, 255, 243);
+}
+<element> {
+    box-sixing: border-box;
+}
+
+.container {
+
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 20px;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+h1, h2, h3 {
+	font-family: 'Georgia', ;
+	font-weight: 700;
+	color: #4aaaa5;
+}
+h1 {
+	font-size: 30px;
+	line-height: 39px;
+	border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+h2,
+h3 {
+	font-size: 22px;
+}
+
+}
+nav {
+	float: right;
+	margin-top: 25px;
+}
+nav a {
+	color: #999;
+	text-decoration: none;
+	margin-left: 15px;
+	display: inline-block;
+	border-left: 1px solid #a39f9f;
+	padding-left: 15px;
+	line-height: 18px;
+}
+
+footer {
+	background: #666;
+	color: #fff;
+	padding: 30px 0;
+	clear: both;
+	border-top: 8px solid #f8fafa;
+	color: #ccc;
+	font-size: 14px;
+	text-align: center;
+}
+
+.sidebar {
+	background: #fff;
+	padding: 30px;
+	width: 100%;
+	max-width: 270px;
+	float: right;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
